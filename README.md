@@ -3,19 +3,19 @@
 This repo will help to build an immutable AWS AMI with Packer.
 Create an identical machine image from a single source
 
-### Create DevOps Base AMI with below softwares
+### Steps
 
-* Docker
-* Python
-* PIP
-* Ansible
-* Java
-* Jenkins
+* Github setup  - https://github.com/
+* Setup Jenkins master slave on docker - https://www.youtube.com/watch?v=Xl4miqBWkEk&t=1s 
+* Integrate Github with Jenkins
+* Create AMI using packer + ansible
+* Use that AMI to create EC2 servers using Terraform
 
-### Workflow - Image creation
+### Workflow:
 Automation of AMI Creation Using Packer
 
 ![Alt text](packer_workflow.PNG?raw=true "Title")
+
 
 ### Use AMI ID - ami-0ff8a91507f77f867. This AMI has below softwares
 * Python
