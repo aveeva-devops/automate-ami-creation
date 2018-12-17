@@ -34,6 +34,17 @@ CI CD EC2 creation
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ### Install ansible (Once you install EC2 using terraform and AMI given)
 ```
 sudo pip install ansible
