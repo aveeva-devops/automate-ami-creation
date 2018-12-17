@@ -12,7 +12,7 @@ Create an identical machine image from a single source
 * Use that AMI to create EC2 servers using Terraform
 
 ### Automation Workflow:
-CI CD EC2 creation 
+CI CD EC2 creation for testing
 
 ![Alt text](packer_workflow.PNG?raw=true "Title")
 
