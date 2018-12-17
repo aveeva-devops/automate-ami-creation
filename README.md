@@ -21,10 +21,11 @@ CI CD EC2 creation
 ![Alt text](GitHub-Jenkins-Integration.png?raw=true "Title")
 
 
-### Use AMI ID - ami-0ff8a91507f77f867. This AMI has below softwares
-* Python
-* PIP
-* Java
+
+
+
+
+
 
 ### Install ansible (Once you install EC2 using terraform and AMI given)
 ```
