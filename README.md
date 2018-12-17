@@ -16,7 +16,9 @@ CI CD EC2 creation
 
 ![Alt text](packer_workflow.PNG?raw=true "Title")
 
-### GITHUB + Jenkins Integration
+### Step 1: GITHUB + Jenkins Integration
+
+![Alt text](GitHub-Jenkins-Integration.png?raw=true "Title")
 
 
 ### Use AMI ID - ami-0ff8a91507f77f867. This AMI has below softwares
