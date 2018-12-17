@@ -11,8 +11,8 @@ Create an identical machine image from a single source
 * Create AMI using packer + ansible
 * Use that AMI to create EC2 servers using Terraform
 
-### Workflow:
-Automation of AMI Creation Using Packer
+### CI CD Workflow:
+CI CD EC2 creation 
 
 ![Alt text](packer_workflow.PNG?raw=true "Title")
 
