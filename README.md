@@ -33,3 +33,4 @@ Container will have below softwares:
 * packer - to create aws ami's
 * terraform - to launch and configure aws resources
 * ansible - to Configure and install software on servers
+* git client - to interact with Github
