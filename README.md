@@ -18,6 +18,8 @@ CI CD EC2 creation
 
 ### Step 1: GITHUB + Jenkins Integration
 
+Watch - https://www.youtube.com/watch?v=vCqL_gvPeRU&t=67s
+
 * Create Public Facing Jenkins Server using - https://www.youtube.com/watch?v=Xl4miqBWkEk&t=16s
 * Install GITHUB integration plugin 
 * Create a new Jenkins Job
