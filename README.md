@@ -28,13 +28,16 @@ CI CD EC2 creation
 ![Alt text](GitHub-Jenkins-Integration.png?raw=true "Title")
 
 
-### Step 2: Create docker Jenkins Slave for devOps activities
-Container will have below softwares:
+### Step 2: Create docker Jenkins Slave - DevOps Slave
+
 * packer - to create aws ami's
 * terraform - to launch and configure aws resources
-* ansible - to Configure and install software on servers
 * git client - to interact with Github
 * AWS CLI
+* Java
+* Maven
+* Python
+* Update docker file, and repeat below steps to add more softwares
 
 Login on Jenkins Slave machine, and execute below commands to create docker image:
 
