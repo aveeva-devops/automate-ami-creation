@@ -41,7 +41,12 @@ Login on Jenkins Slave machine, and execute below commands to create docker imag
 ```
 git clone https://github.com/aveeva-devops/automate-ami-creation.git
 cd src/packer-docker-slave/
-sudo docker build -t devops_docker_jenkins_slave .
+docker build -t aveevadevops/jenkins:devops_image .
+docker login
+docker push aveevadevops/jenkins:devops_image
 ```
+
+Above steps will create image from Dockerfile, push it to docker hub.
+Now, image is ready to be used as Jenkins slave
 
 Once image is created, use this image to launch Jenkins slave (https://www.youtube.com/watch?v=Xl4miqBWkEk)
