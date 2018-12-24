@@ -30,6 +30,8 @@ CI CD EC2 creation
 
 ### Step 2: Docker Container for DevOps
 
+![Alt text](packer_workflow.PNG?raw=true "Title")
+
 * packer - to create aws ami's
 * terraform - to launch and configure aws resources
 * git client - to interact with Github
