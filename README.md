@@ -28,7 +28,7 @@ CI CD EC2 creation
 ![Alt text](GitHub-Jenkins-Integration.png?raw=true "Title")
 
 
-### Step 2: Create docker Jenkins Slave - DevOps Slave
+### Step 2: Docker Container for DevOps
 
 * packer - to create aws ami's
 * terraform - to launch and configure aws resources
